@@ -1,0 +1,8 @@
+FROM hoellen/nextcloud:20.0
+
+LABEL maintainer="lexXxel <lexxxel@lexxxel.de>"
+
+RUN apk -U upgrade && \
+    apk add \
+    perl \
+    && rm -rf /var/cache/apk/* /tmp/* /root/.gnupg
