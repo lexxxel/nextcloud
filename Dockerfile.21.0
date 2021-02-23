@@ -1,4 +1,4 @@
-FROM hoellen/nextcloud:18.0
+FROM hoellen/nextcloud:21.0
 
 LABEL maintainer="lexXxel <lexxxel@lexxxel.de>"
 
